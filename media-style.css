@@ -1,0 +1,295 @@
+/* Adaptive Layout */
+
+@media (max-width: 1401px) {
+
+    /* About styles */
+
+    .about {
+        height: 862px;
+    }
+
+    .intro {
+        margin: 0 20px;
+    }
+
+    .carousel-wrapper {
+        margin: 0 auto;
+        display: flex;
+        width: 614px;
+    }
+
+    .images-about {
+        padding: 20px 0;
+        overflow: hidden;
+    }
+
+    .images-about>img {
+        padding: 0 60px;
+    }
+
+    .slider-button {
+        display: flex;
+        width: 24px;
+        padding-top: 40px;
+        cursor: pointer;
+    }
+
+    .carousel-indicator-adaptive {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 1240px) {
+
+    /* Contacts styles */
+
+    .contacts-map {
+        width: 100%;
+        height: auto;
+        margin: 65px auto 30px;
+    }
+
+    .contacts-map>img {
+        padding: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 1220px) {
+
+    /* Favorites styles */
+
+    .favorites {
+        height: auto;
+    }
+
+    .winter,
+    .spring,
+    .summer,
+    .autumn {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 1128px) {
+
+    /* Library Cards styles */
+
+    .library-card {
+        height: 857px;
+    }
+
+    .digital-card-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .library-card-content {
+        margin-bottom: 21px;
+    }
+
+    .get-reader-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-title {
+        margin-bottom: 40px;
+    }
+
+    .get-info {
+        margin-bottom: 40px;
+        width: 600px;
+        text-align: center;
+    }
+
+    .get-card-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-right: 20px;
+    }
+
+    .get-card-button:last-child {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .wrapper {
+        max-width: 1024px;
+    }
+
+    /* Header styles */
+
+    .header {
+        padding: 20px;
+    }
+
+    .profile-menu {
+        margin-right: 80px;
+    }
+
+    /* Burger-menu styles */
+
+    .nav-wrap {
+        position: relative;
+    }
+
+    .burger-menu-btn {
+        position: absolute;
+        top: 2px;
+        right: 0;
+        z-index: 40;
+        padding: 5px 0 5px 5px;
+        display: block;
+    }
+
+    .menu-btn-close {
+        position: relative;
+        top: -6px;
+        right: 4px;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: -26px;
+        right: -100vw;
+        z-index: 20;
+        padding: 100px 0;
+        display: block;
+        text-align: center;
+        width: 332px;
+        height: 570px;
+        background: #000000;
+        transition: 0.8s ease-in-out;
+    }
+
+    .nav-item {
+        margin-bottom: 30px;
+    }
+
+    .nav-item>a {
+        margin: 0 auto;
+    }
+
+    .menu-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 10;
+    }
+
+    .active {
+        display: block;
+        top: -26px;
+        right: -20px;
+        transition: 0.4s ease-in-out;
+    }
+
+    /* Coffee Shop styles */
+
+    .coffee-shop {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .wrapper {
+        max-width: 768px;
+    }
+
+    .welcome-bg {
+        height: 600px;
+        background: url(assets/img/welcome768.png), lightgray 50% / cover no-repeat;
+    }
+
+    /* Favorites styles */
+
+    .favorites {
+        height: 2629px;
+    }
+
+    /* Favorites content styles */
+
+    .winter,
+    .spring,
+    .summer,
+    .autumn {
+        justify-content: center;
+    }
+
+    /* Contacts styles */
+
+    .contacts {
+        max-height: 1055px;
+    }
+
+    .contacts-map {
+        width: 100%;
+        height: auto;
+        margin: 65px auto 30px;
+    }
+
+    .contacts-map>img {
+        padding: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Footer styles */
+
+    .copyright>a {
+        text-align: center;
+    }
+
+    .rss-link {
+        margin-right: 55px;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    .wrapper {
+        max-width: 750px;
+    }
+
+    /* Favorites styles */
+
+    .season-pick {
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    .wrapper {
+        max-width: 640px;
+    }
+
+    /* About styles */
+
+    .carousel-wrapper {
+        width: 576px;
+    }
+
+    .images-about>img {
+        padding: 0 40px;
+    }
+
+}
